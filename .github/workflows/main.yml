@@ -34,7 +34,7 @@ jobs:
       - name: Download videos from Drive
         run: |
           mkdir videos
-          gdown --folder "https://drive.google.com/drive/folders/1sKgMFwncisA22_bNqgf07gNhcnCMY7Lu" -O videos
+          gdown --folder "https://drive.google.com/drive/folders/1L57K840eshhsAGm3NFtiBW08XRQYjJUk" -O videos
 
       # ───────── Run your script ─────────
       - name: Merge videos
@@ -46,5 +46,5 @@ jobs:
         with:
           name: merged-video
           path: |
-            merged_output_blake_blossom.mp4
+            merged_output_blake_blossom_failed_now_connie.mp4
             timestamps.txt

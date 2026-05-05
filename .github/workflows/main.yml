@@ -46,5 +46,5 @@ jobs:
         with:
           name: merged-video
           path: |
-            merged_output.mp4
+            merged_output_blake_blossom.mp4
             timestamps.txt
